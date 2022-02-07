@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Form</title>
+<style type="text/css">
+html{
+	scroll-behavior:smooth;
+	}</style>
+</head>
+<body>
+<div class="container" id="container">
+<div class="nav">
+<div class="logo">
+<svg id="logosvg" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg"><path d="M681 1399l-50 50q-10 10-23 10t-23-10l-466-466q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l50 50q10 10 10 23t-10 23l-393 393 393 393q10 10 10 23t-10 23zm591-1067l-373 1291q-4 13-15.5 19.5t-23.5 2.5l-62-17q-13-4-19.5-15.5t-2.5-24.5l373-1291q4-13 15.5-19.5t23.5-2.5l62 17q13 4 19.5 15.5t2.5 24.5zm657 651l-466 466q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l393-393-393-393q-10-10-10-23t10-23l50-50q10-10 23-10t23 10l466 466q10 10 10 23t-10 23z" fill="#fff"/></svg>
+<div class="logoTxt" id="logoTxt">C W Y</div>
+</div>
+<div class="name">Code With Yourself</div>
+
+<div class="menu" onclick="toggleMenu()">
+<svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+<path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z" fill="#fff"/>
+</svg>
+</div>
+
+
+<div class="menubar" id="menubar">
+                         <ul class="menuList">
+                             <li class="menu-item">
+                                 <a class="nav-link" href="index.html">Home</a>
+                             </li>
+                             <li class="menu-item">
+                                 <a class="nav-link" href="about.html">About</a>
+                             </li>
+                             <li class="menu-item">
+                                 <a class="nav-link" href="#">Posts</a>
+                             </li>                            
+                             <li class="menu-item active">
+                                 <a class="nav-link" href="contact.html">Contact</a>
+                             </li>
+                             <li class="menu-item">
+                             <a class="nav-link" href="privacyPolicy.html">Privacy Policy</a>
+                             </li>
+                             <li class="menu-item">
+                             <a class="nav-link" href="terms.html">Terms and Conditions</a>
+                             </li>
+                         </ul>                            
+                     </div>
+
+</div>
+
+<div class="main">
+<div class="contactframe">
+<iframe src="https://anurag-shukla.000webhostapp.com/contact_form/formpage.html">
+</iframe></div>
+
+<div class="bgTool">            
+                <ul class="controls">
+                    <li id="bg1" class="control activebg" onclick="changebg(1)"></li>
+                    <li id="bg2" class="control" onclick="changebg(2)"></li>
+                    <li id="bg3" class="control" onclick="changebg(3)"></li>
+                </ul>            
+            </div>
+         
+<div class="footer">Copyright 2021 <a href="https://www.twitter.com/itsanuragshukla" > @Anurag Shukla</a></div>
+
+</div>
+<div class="bg" id="fixedbg"></div>
+       <!--  <div class="scrollbg" id="scrollbg">
+         <div class="bg-top"></div>
+         <div class="bg-mid"></div>
+         <div class="bg-bottom"></div>
+         </div>-->
+</div>
+
+   
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
